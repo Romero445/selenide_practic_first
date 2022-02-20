@@ -1,9 +1,6 @@
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.conditions.Text;
-import com.codeborne.selenide.selector.ByText;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 
 import static com.codeborne.selenide.Condition.text;
@@ -11,7 +8,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$x;
 
-public class PracticTest {
+public class GitSearchTest {
 
     @BeforeAll
     static void beforeAll() {
