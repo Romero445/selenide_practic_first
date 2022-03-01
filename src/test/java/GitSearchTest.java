@@ -13,8 +13,8 @@ public class GitSearchTest {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
-    }
 
+    }
 
     @Test
     void selenideSearch (){
@@ -29,8 +29,6 @@ public class GitSearchTest {
         //Проверяем,что есть код для JUnit5
         $("#wiki-body").shouldHave(text("JUnit5 extension"))
                 .shouldHave(text("Using JUnit5 extend test class:"));
-
-
 
     }
 

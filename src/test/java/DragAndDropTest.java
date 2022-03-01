@@ -10,10 +10,10 @@ public class DragAndDropTest {
 
     @BeforeAll
     static void beforeAll(){
-
         Configuration.browserSize = "1920x1080";
 
     }
+
     @Test
     void checkDrop(){
         open("https://the-internet.herokuapp.com/drag_and_drop");
@@ -21,8 +21,6 @@ public class DragAndDropTest {
         $("#column-a").$("header").shouldHave(text("b"));
         $("#column-b").$("header").shouldHave(text("a"));
 
-
     }
-
 
 }
